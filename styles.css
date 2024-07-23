@@ -1,0 +1,189 @@
+/* nijin sino  */
+  /* 200594634 */
+
+.poster {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        /* styles for the poster image */
+        .poster-image {
+            width: 50%;
+            height: auto;
+        }
+        /* text overlay on the poster */
+        .text-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* Move to the center */
+            text-align: center;
+            width: 100%;
+        }
+        /* subtitle styles */
+        .sub.freedom {
+            font-size: 3em;
+            position: absolute;
+            top: 180px;
+            width: 100%;
+            color: brown;
+        }
+
+        .message {
+            font-size: 1.2em;   /* Medium font size */
+            position: absolute;
+            bottom: 570px;
+            width: 100%;
+            color: #ccc; 
+        }
+
+        .sub {
+            font-size: 1.5em;
+            position: absolute;
+            top: 150px;
+            width: 100%;
+            letter-spacing: 2px;
+        }
+        /* style for the tagline text */
+        .tagline {
+            font-size: 1.2em;
+            position: absolute;
+            top: 270px;
+            width: 100%;
+        }
+
+        /* give styling to the title */
+        .title {
+            opacity: 0.9; 
+            position: relative; 
+            top: 320px;
+            width: 50%; 
+            margin: 1em auto; 
+            padding: 0 10%; 
+            display: block; 
+            text-align: center; 
+            font-family: 'Open Sans', sans-serif;
+            font-size: smaller;
+            font-weight: 300;
+            line-height: 1.6;
+            color: #f50e0e; /* Optional: Add color to your text */
+        }
+/* bottom section style */
+        .bottom {
+            width: 40%;
+            margin: 15px auto 0 auto; /* Center the bottom section and add margin-top */
+            text-align: center;
+            color: #cd550f;
+            position: absolute;
+            top: 380px;
+            margin-left: 430px;
+            text-align: center;
+            font-size: small;
+        }
+
+        /* giving  styles for spans within the bottom section */
+        .bottom span {
+            font-size: 8px;
+        }
+
+        /* Two text elements in one place within the bottom section */
+        .bottom  .credit {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: flex-end;
+            line-height: 1;
+            top: -5px;
+            position: relative;
+            color: #C38200;
+        }
+
+        /*giving styles for spans within the credit section */
+        .bottom .credit span {
+            font-size: 5px;
+        }
+
+        .subtitle {
+            font-size: 0.8em; 
+        }
+
+        .comingsoon {
+            font-size: 2em;
+            color: red;
+            position: absolute;
+            top: 70px;
+            width: 100%;
+            letter-spacing: 8px;
+        }
+        /* styling websitename */
+        .websitename {
+            font-size: 1em;
+            color: white;
+            position: absolute;
+            top: 110px;
+            width: 100%;
+        }
+        /* Logos styles */
+        .logos {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            top: 1060px;
+            display: inline-block;
+            flex-direction: column;
+            gap: 10px;
+            margin-left: 180px;
+        }
+
+        .logo-image {
+            width: 30px; /* Smaller size */
+            height: auto;
+        }
+
+        span {
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        /* styling copyright note */
+        .copyright {
+            font-size: small;
+            color: white;
+            position: absolute;
+            top: 158px;
+            width: 100%;
+            color: coral;
+        }
+
+        .smalltext {
+            position: absolute;
+            top: 190px;
+            left: 49%;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 10px; 
+        }
+        /* give styles to watch here and icon */
+        .youtubelink {
+            text-align: center;
+            margin: 20px 0;
+           top: 140px;
+           left: 42%;
+          
+            position: absolute;
+        }
+        
+        .youtubelink a {
+            font-size: small;
+            /* color to icon */
+            color: #FF0000; 
+            
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          
+        }
+        
+        .youtubelink i {
+            margin-right: 8px; /* Space between the icon and text */
+            font-size: 1.5em;
+        }
